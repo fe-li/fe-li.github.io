@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="fonts/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="sources/aos.css">
+</head>
 <body>
-<h1>Hello!</h1>
-<p>I'm Kamil and this are my projects:</p>
-<ul>
-    <li><a href="http://ckziu.zbaszynek.pl/">http://ckziu.zbaszynek.pl/</a></li>
-    <li><a href="https://praktycznyegzamin.pl/">https://praktycznyegzamin.pl/</a></li>
-    <li><a href="http://kurama.kfeliszewski.pl/">http://kurama.kfeliszewski.pl/</a></li>
-    <li><a href="http://akf.kfeliszewski.pl/mobilnyfizjo/">http://akf.kfeliszewski.pl/mobilnyfizjo/</a></li>
-    <li><a href="https://yuki-fishing.com.pl/">https://yuki-fishing.com.pl/</a></li>
-    <li><a href="http://test.sklep.kfeliszewski.pl/">http://test.sklep.kfeliszewski.pl/</a></li>
-    <li><a href="http://bobblue.kfeliszewski.pl/">http://bobblue.kfeliszewski.pl/</a></li>
-    <li><a href="http://niesorty.kfeliszewski.pl/">http://niesorty.kfeliszewski.pl/</a></li>
-    <li><a href="http://mixmetal.kfeliszewski.pl/">http://mixmetal.kfeliszewski.pl/</a></li>
-</ul>
+    <div class="main">
+        <div class="mainA">
+            <a id="aToHome" href="index.html">
+                Kamil.
+            </a>
+        </div>
+        <div class="odnosniki" data-aos="fade-up">
+            <a class="toSubPages" href="subpages/aboutme.html">Hello!</a>
+            <a class="toSubPages" style="color: #2baf02;" href="subpages/projects.html">I am</a>
+            <a class="toSubPages" style="color: #2baf02;" href="subpages/contact.html">Kamil</a>
+        </div>
+        <img id="technology" draggable="false" src="sources/technology.png" alt="technology logo" data-aos="fade-up">
+    </div>
+    <script src="sources/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
